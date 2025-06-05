@@ -83,7 +83,7 @@ args:
   - "--warn-undefined-variables"
 ```
 
-If user sends `/build target:app threads:10 debug:true -k:true`, the bot will run:
+If user sends `/build target:app threads:10 debug:true --no-print-directory:true`, the bot will run:
 
 ```
 make -B app -j 10 -d --no-print-directory --warn-undefined-variables
