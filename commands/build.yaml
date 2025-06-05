@@ -1,0 +1,10 @@
+name: build
+description: Build a project with optional flags
+command: make
+args:
+  - "-B"
+  - "{$target}"
+  - "-j {?threads}"
+  - "-d {!debug}"
+  - "{=--no-print-directory}"
+  - "--warn-undefined-variables"
