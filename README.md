@@ -105,7 +105,7 @@ And that’s it—your bot’s live and listening for slash commands.
 Built with help from:
 
 - [`gopkg.in/yaml.v3`](https://pkg.go.dev/gopkg.in/yaml.v3) – for reading the YAML files
-- [`discordgo`](https://github.com/bwmarrin/discordgo) – the Go lib that talks to Discord
+- [`bwmarrin/discordgo`](https://github.com/bwmarrin/discordgo) – the Go lib that talks to Discord
 
 ## License
 
